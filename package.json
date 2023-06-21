@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "chromatic": "^6.19.8"
+  },
+  "scripts": {
+    "storybook-start": "start-storybook -p 9001 -s ./src -c .storybook",
+    "storybook-build": "build-storybook -c .storybook -o ./dist/my-component/storybook/"
+   }
+}
