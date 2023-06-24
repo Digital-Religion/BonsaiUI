@@ -1,0 +1,38 @@
+.bui-button {
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 175%;
+  color: var(--greyscale-pure-white, #FFF);
+  display: inline-flex;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 4px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.bui-button--primary {
+  background-color: #007185;
+}
+.bui-button--primary:hover {
+  background-color: #008299;
+}
+.bui-button--primary:active {
+  background-color: #006475;
+}
+.bui-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.bui-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.bui-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.bui-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

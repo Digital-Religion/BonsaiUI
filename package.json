@@ -1,9 +1,26 @@
 {
   "devDependencies": {
-    "chromatic": "^6.19.8"
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@storybook/addon-essentials": "^7.0.22",
+    "@storybook/addon-interactions": "^7.0.22",
+    "@storybook/addon-links": "^7.0.22",
+    "@storybook/blocks": "^7.0.22",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-webpack5": "^7.0.22",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "chromatic": "^6.19.8",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.22"
   },
   "scripts": {
-    "storybook-start": "start-storybook -p 9001 -s ./src -c .storybook",
-    "storybook-build": "build-storybook -c .storybook -o ./dist/my-component/storybook/"
-   }
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_b14c5b0eedad039 --exit-zero-on-changes"
+  },
+  "version": "",
+  "readme": "ERROR: No README data found!",
+  "_id": "@"
 }
